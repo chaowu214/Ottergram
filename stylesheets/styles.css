@@ -20,7 +20,9 @@
     font-style: normal;
 }
 
-html, body { height: 100%; }
+html, body { 
+    height: 100%; 
+}
 
 body {
     display: flex;
@@ -30,9 +32,13 @@ body {
     background: rgb(149, 194, 215);
 }
 
-a { text-decoration: none; }
+a { 
+    text-decoration: none; 
+}
 
-.main-header { flex: 0 1 auto; }
+.main-header { 
+    flex: 0 1 auto; 
+}
 
 .main-content {
     flex: 1 1 auto;
@@ -49,7 +55,9 @@ a { text-decoration: none; }
     font-size: 4rem;
 }
 
-.thumbnail-item + .thumbnail-item { margin-top: 10px; }
+.thumbnail-item + .thumbnail-item { 
+    margin-top: 10px; 
+}
 
 .thumbnail-item {
     display: inline-block;
